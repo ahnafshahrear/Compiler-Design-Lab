@@ -1,1 +1,1 @@
-{"name":"Local: five","url":"f:\\Compiler Design\\five.cpp","tests":[{"id":1656565497644,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Compiler Design\\five.cpp","group":"local","local":true}
+{"name":"Local: five","url":"f:\\Compiler Design\\five.cpp","tests":[{"id":1656565497644,"input":"12.32","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Compiler Design\\five.cpp","group":"local","local":true}

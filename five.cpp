@@ -38,19 +38,13 @@ bool isVariable(string x)
 
 int isFloat(string x)
 {
-    int mark;
-    for (int i = 0; x[i]; i++)
+    int count = 0;
+    for (int i = x.size() - 1; x[i]; i--)
     {
-        if (isdigit(x[i]) or x[i] == '.')
-        {
-            continue;
-        }
-        else 
-        {
-            return 0;
-        }
+        if (x[i] == '.') break;
+        count++;
     }
-    
+    return count;
 }
 
 int main()
@@ -61,11 +55,11 @@ int main()
     {
         cout << "Float Variable";
     }
-    else if (1) 
+    else if (isFloat(word) == 2) 
     {
         cout << "Float Number";
     }
-    else if (1)
+    else if (isFloat(word) > 2)
     {
         cout << "Double Number";
     }
