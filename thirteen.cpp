@@ -136,7 +136,7 @@ void computeFollow()
                                 follow[rule[v]].insert(x);
                             }
                             if (!first[rule[f]].count('@')) break;
-                            if (follow[rule[v]].count('@') and f + 1 == rule.size())
+                            if (first[rule[f]].count('@') and f + 1 == rule.size())
                             {
                                 for (char x: follow[g.first])
                                 {
