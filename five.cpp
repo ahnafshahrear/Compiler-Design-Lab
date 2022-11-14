@@ -13,17 +13,17 @@ typedef unsigned long long int uint64;
 bool isVariable(string x)
 {
     bool mark = true;
-    if ((tolower(x[0]) > 'h') or (tolower(x[0]) < 'o'))
+    if ((tolower(x[0]) > 'h') and (tolower(x[0]) < 'o'))
     {
         mark = false;
     }
     for (int i = 1; x[i]; i++)
     {
-        if (tolower(x[0]) >= 'a' and tolower(x[0]) <= 'z')
+        if (tolower(x[i]) >= 'a' and tolower(x[i]) <= 'z')
         {
             continue;
         }
-        else if (x[0] >= '0' and x[0] <= '9')
+        else if (x[i] >= '0' and x[i] <= '9')
         {
             continue;
         }
