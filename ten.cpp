@@ -23,7 +23,7 @@ int main()
         stc += ex[i];
         if (stc.back() == 'x')
         {
-            stc.back() == 'S';
+            stc.back() = 'S';
         }
         if (rules.find(rules[stc]) != rules.end())
         {
