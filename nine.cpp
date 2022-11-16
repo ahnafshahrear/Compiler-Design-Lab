@@ -27,7 +27,7 @@ int main()
         else if (count == 3 and !n.count(word))
         {
             cout << "Invalid";
-            return 0    ;
+            return 0;
         }
     }
     cout << "Valid";

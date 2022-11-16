@@ -2,6 +2,32 @@
 
 using namespace std;
 
+// Input
+// @ = Eps
+// # = id
+
+/*
+S->Bb
+S->Cd
+B->aB
+B->@
+C->cC
+C->@
+*/
+
+/*
+S->ABCDE
+A->a
+A->@
+B->b
+B->@
+C->c
+D->d
+D->@
+E->e
+E->@
+*/
+
 map<char, vector<string>> grammar;
 map<char, set<char>> first;
 map<char, set<char>> follow = {{'S', {'$'}}};

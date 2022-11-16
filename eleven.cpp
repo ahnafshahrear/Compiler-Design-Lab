@@ -13,7 +13,7 @@ int main()
     // Input format = A+B*C/D*G+F-T
     cin >> expression;
     syntaxTree(expression);
-    cout << "Parse Tree:\n";
+    cout << "Syntax Tree:\n";
     for (string x: tree)
     {
         cout << x << "\n";
