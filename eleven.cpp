@@ -2,7 +2,7 @@
 
 using namespace std;
 
-vector<string> tree(50, "                                                  ");
+vector<string> tree(50, "                              ");
 
 void syntaxTree(string ex);
 bool isOp(char x);
@@ -10,9 +10,10 @@ bool isOp(char x);
 int main()
 {
     string expression;
+    // Input format = A+B*C/D*G+F-T
     cin >> expression;
     syntaxTree(expression);
-    cout << "Parse tree:\n";
+    cout << "Parse Tree:\n";
     for (string x: tree)
     {
         cout << x << "\n";
@@ -29,7 +30,7 @@ void syntaxTree(string ex)
             tree[row][col] = ex[i];
             tree[row + 1][col - 1] = '/';
             tree[row + 1][col + 1] = '\\';
-            tree[row + 2][col - 1] = ex[i - 1];
+            tree[row + 2][col - 2] = ex[i - 1];
             row += 2;
             col += 2;
         }

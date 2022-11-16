@@ -2,27 +2,33 @@
 
 using namespace std;
 
-vector<pair<string, string>> rules = { {"S", "S+S"}, {"S", "S*S"} };
+map<string, string> rules = {{"S+S", "S"}, {"S*S", "S"}};
 
 int main()
 {
-    string stc = "", input;
+    string stc = "", ex, input;
     cin >> input;
     for (int i = 0; input[i]; i++)
     {
-        stc += input[i];
-        if (stc[stc.size() - 1] == 'x')
+        if (input[i] == 'i' and input[i + 1] == 'd')
         {
-            stc[stc.size() - 1] = 'S';
+            ex.push_back('x');
+            i++;
         }
-        for (auto p: rules)
+        else ex.push_back(input[i]);
+    }
+    for (int i = 0; ex[i]; i++)
+    {
+        stc += ex[i];
+        if (stc.back() == 'x')
         {
-            if (stc.compare(p.second) == 0)
-            {
-                stc = p.first;
-            }
+            stc.back() == 'S';
         }
-        if (i == input.size() - 1 and stc == "S")
+        if (rules.find(rules[stc]) != rules.end())
+        {
+            stc = rules[stc];
+        }
+        if (i == ex.size() - 1 and stc == "S")
         {
             cout << "Accept\n";
             return 0;

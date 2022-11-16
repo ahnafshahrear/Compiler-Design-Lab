@@ -75,6 +75,7 @@ bool bracketCheck()
 int main()
 {
     cin >> syntax;
+    cout << isalpha('U');
     if (operatorCheck() and bracketCheck()) cout << "Valid\n";
     else cout << "Invalid\n";
 }
