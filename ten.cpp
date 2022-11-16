@@ -8,6 +8,7 @@ int main()
 {
     string stc = "", ex, input;
     cin >> input;
+    // Input format = id+id*id+id
     for (int i = 0; input[i]; i++)
     {
         if (input[i] == 'i' and input[i + 1] == 'd')
