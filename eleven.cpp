@@ -40,5 +40,5 @@ void syntaxTree(string ex)
 
 bool isOp(char x)
 {
-    return (x == '+' or x == '-' or x == '*' or x == '\\');
+    return (x == '+' or x == '-' or x == '*' or x == '/');
 }
