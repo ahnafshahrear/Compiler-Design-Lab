@@ -40,10 +40,7 @@ bool operatorCheck()
             {
                 return false;
             }
-            if (syntax[i - 1] == '(')
-            {
-                return false;
-            }
+            if (syntax[i - 1] == '(') return false;
         }
         if (syntax[i - 1] == '+' or syntax[i - 1] == '-' or syntax[i - 1] == '*' or syntax[i - 1] == '/')
         {
