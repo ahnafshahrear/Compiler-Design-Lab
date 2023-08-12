@@ -2,9 +2,6 @@
 
 using namespace std;
 
-typedef long long int int64;
-typedef unsigned long long int uint64;
-
 #define pb push_back
 
 bool isVariable(string x)
