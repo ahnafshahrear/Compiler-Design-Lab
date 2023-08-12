@@ -48,18 +48,9 @@ int main()
 {
     string word;
     cin >> word;
-    if (isVariable(word)) 
-    {
-        cout << "Float Variable";
-    }
-    else if (isFloat(word) == 2) 
-    {
-        cout << "Float Number";
-    }
-    else if (isFloat(word) > 2)
-    {
-        cout << "Double Number";
-    }
+    if (isVariable(word)) cout << "Float Variable";
+    else if (isFloat(word) == 2) cout << "Float Number";
+    else if (isFloat(word) > 2) cout << "Double Number";
     else cout << "Invalid Input or Undefined";
     return 0;
 }
