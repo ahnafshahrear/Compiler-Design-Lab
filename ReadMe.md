@@ -4,3 +4,4 @@
 - **Code:** `CSE3142`
 
 ### Lab Tasks
+- **[Compiler Design Lab Tasks](https://github.com/ahnafshahrear/Compiler-Design/blob/main/LabTasks.txt)**
