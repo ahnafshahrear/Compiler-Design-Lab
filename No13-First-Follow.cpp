@@ -2,31 +2,7 @@
 
 using namespace std;
 
-// Input
-// @ = Eps
-// # = id
-
-/*
-S->Bb
-S->Cd
-B->aB
-B->@
-C->cC
-C->@
-*/
-
-/*
-S->ABCDE
-A->a
-A->@
-B->b
-B->@
-C->c
-D->d
-D->@
-E->e
-E->@
-*/
+//... Input format is described at the end
 
 map<char, vector<string>> grammar;
 map<char, set<char>> first;
@@ -205,3 +181,29 @@ bool isVariable(char x)
 {
     return (x >= 'A' and x <= 'Z');
 }
+
+// Input
+// @ = Eps
+// # = id
+
+/*
+S->Bb
+S->Cd
+B->aB
+B->@
+C->cC
+C->@
+*/
+
+/*
+S->ABCDE
+A->a
+A->@
+B->b
+B->@
+C->c
+D->d
+D->@
+E->e
+E->@
+*/
