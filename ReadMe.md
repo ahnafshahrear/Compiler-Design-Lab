@@ -1,23 +1,7 @@
-# Compiler Design Lab 
-## 3rd Year 1st Semester
+## Compiler Design Lab
+- **[Ahnaf Shahrear Khan](https://github.com/ahnafshahrear)**
+- **Computer Science & Engineering, University of Rajshahi**
+- **Code:** `CSE3142`
 
-## Authors
+### Lab Tasks
 
-- [@ahnafshahrear](https://github.com/ahnafshahrear)
-
-## Language
-
-- C++
-
-## Appendix
-
-1.
-2.
-3.
-4.
-
-13. First & Follow
-14.
-15.
-16. Infix to Postfix
-17. 
