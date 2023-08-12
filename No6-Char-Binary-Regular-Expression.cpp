@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
 
-// Name: Ahnaf Shahrear Khan
-// Date: 04.08.2k22
-
 using namespace std;
 
 typedef long long int int64;
