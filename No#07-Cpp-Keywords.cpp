@@ -65,21 +65,9 @@ int main()
 {
     string word;
     cin >> word;
-    if (isKeyword(word))
-    {
-        cout << "Keyword\n";
-    }
-    else if (isIdentifier(word))
-    {
-        cout << "Identifier\n";
-    }
-    else if (isOperator(word))
-    {
-        cout << "Operator\n";
-    }
-    else if (isConstant(word)) 
-    {
-        cout << "Constant\n";
-    }
+    if (isKeyword(word)) cout << "Keyword\n";
+    else if (isIdentifier(word)) cout << "Identifier\n";
+    else if (isOperator(word)) cout << "Operator\n";
+    else if (isConstant(word)) cout << "Constant\n";
     else cout << "Invalid\n";
 }
