@@ -56,14 +56,8 @@ int main()
     {
         cout << "Integer Variable";
     }
-    else if (word.size() <= 4 and isInt(word)) 
-    {
-        cout << "ShortInt Number";
-    }
-    else if (isInt(word))
-    {
-        cout << "LongInt Number";
-    }
+    else if (word.size() <= 4 and isInt(word)) cout << "ShortInt Number";
+    else if (isInt(word)) cout << "LongInt Number";
     else cout << "Invalid Input or Undefined";
     return 0;
 }
