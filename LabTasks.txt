@@ -1,19 +1,19 @@
-1. Write a C program that read the following string:
+1. Write a C program that reads the following string:
      	“Md. Tareq Zaman, Part-3, 2011"
-	a) Count number of words. letters. digits and other characters.
-	b) Separates letters. digits and others characters.
+	a) Count the number of words, letters, digits and other characters.
+	b) Separates letters, digits and other characters.
 
-2. Write a program that read the following string;
-	"Munmun is the student of Computer Science & Engincering"
-	a) Count how many vowels and Consonants are there?"
+2. Write a program that reads the following string;
+	"Munmun is a student of Computer Science & Engineering"
+	a) Count how many vowels and Consonants are there?
 	b) Find out which vowels and consonants are existed in the above string?
-	c) Divide the given string into two separate strings, where one string only contains the words started with vowel, and another contains the words started with consonant.
+	c) Divide the given string into two separate strings, where one string only contains the words starting with a vowel, and another contains the words starting with a consonant.
 
 3. Write a program that abbreviates the following code:
-	CSE-3141 as Computer Science & Engineering, 34 year, 1" semester, Compiler Design, Theory.
+	CSE-3141 as Computer Science & Engineering, 3rd year, 1st semester, Compiler Design, Theory.
 
-4. Build a lexical analyzer implemepting the following regular expressions:
-	Integer yariable =(i-nlN)(a-zA-Z0-9)*
+4. Build a lexical analyzer implementing the following regular expressions:
+	Integer variable =(i-nlN)(a-zA-Z0-9)*
 	Shomiint Number =7FS)(1-9)(0-9)1(1-9)(0-9)(0-9)1(1-9)(0-9)(0-9)(0-9)
 	Longlnt Number =(1-9)(0-9)(0-9)(0-9)(0-9)+
 	Invalid Input or Undefined = Otherwise
@@ -33,7 +33,7 @@
 7. Write a program to recognize C++
 	i) Keyword ii) Identifier iii) Operator iv) Constant
 
-8. Write a program which converts a word of C++ program to its equivalent token.
+8. Write a program which converts a word of a C++ program to its equivalent token.
 	Input: 646.45 Output: Float Input: do
 	Output: Keyword
 	Input: 554
@@ -48,18 +48,18 @@
 	SUB → PN|P
 	PRED → VIV N
 	PN → Sagor | Selim | Salma | Nipu
-	P→ he| she |1/ we | you | they
+	P → he| she |1/ we | you | they
 	N → book | cow | dog | home | grass |rice |mango
 	V → read | eat | take | run | write
 
-10. Write a program to implement a shift reducing parsing.
+10. Write a program to implement a shift-reducing parsing.
 
 11. Write a program to generate a syntax tree for the sentence a+b*c with the following grammar:
-	E→E+E|E-E|E*E|E/E|(E)lalblc
+	E → E+E|E-E|E*E|E/E|(E)lalblc
 
-12. Write a program which checks a validity of C++ expression derived by the following grammar:
-	E→EAE|(E)|ID
-	A→+|-|*|/
+12. Write a program which checks the validity of C++ expression derived by the following grammar:
+	E → EAE|(E)|ID
+	A → +|-|*|/
 	ID → any valid identifier | any valid integer
 	Input: Enter a string: 2+3*5
 	Output: VALID
@@ -70,12 +70,12 @@
 
 14. Write a program to generate a FOLLOW set and parsing table using the following LL(1) grammar and FIRST set:
 
-15. Write a program to generate a parse tree of predictive parser using the following parsing.
+15. Write a program to generate a parse tree of the predictive parser using the following parsing.
 
 16. Write a program that converts the C++ expression to an intermediate code of Post-fix notation form.
 	Input: (A-B)*(D/E)
 	Output: AB-DE*
 
 17. Write a program that converts the C++ statement to an intermediate code of Post-fix notation form.
-	Input: Enter infix statement : if a then if c-d then atc else a*c else a+b 
+	Input: Enter infix statement: if a then if c-d then atc else a*c else a+b 
 	Output: Postfix: acd-ac +ac*？ab+?
