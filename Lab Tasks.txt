@@ -6,7 +6,7 @@
 2. Write a program that reads the following string;
 	"Munmun is a student of Computer Science & Engineering"
 	a) Count how many vowels and Consonants are there?
-	b) Find out which vowels and consonants are existed in the above string?
+	b) Find out which vowels and consonants exist in the above string.
 	c) Divide the given string into two separate strings, where one string only contains the words starting with a vowel, and another contains the words starting with a consonant.
 
 3. Write a program that abbreviates the following code:
@@ -43,7 +43,7 @@
 	Input: +
 	Output: Arithmetic Operator
 
-9. Write a program that will check an English sentence given in present indefinite form to justify whether it is syntactically valid or invalid according to the following Chomsky Normal Form:
+9. Write a program that will check an English sentence given in the present indefinite form to justify whether it is syntactically valid or invalid according to the following Chomsky Normal Form:
 	S → SUB PRED
 	SUB → PN|P
 	PRED → VIV N
@@ -57,7 +57,7 @@
 11. Write a program to generate a syntax tree for the sentence a+b*c with the following grammar:
 	E → E+E|E-E|E*E|E/E|(E)lalblc
 
-12. Write a program which checks the validity of C++ expression derived by the following grammar:
+12. Write a program that checks the validity of C++ expression derived by the following grammar:
 	E → EAE|(E)|ID
 	A → +|-|*|/
 	ID → any valid identifier | any valid integer
