@@ -2,8 +2,6 @@
 
 using namespace std;
 
-//... Input format is described at the end
-
 map<char, vector<string>> grammar;
 map<char, set<char>> first;
 map<char, set<char>> follow = {{'S', {'$'}}};
