@@ -3,5 +3,5 @@
 - **Computer Science & Engineering, University of Rajshahi**
 - **Code: `CSE-3142`**
 
-### Lab Tasks
+## Lab Tasks
 - **[Compiler Design Lab Tasks](https://github.com/ahnafshahrear/Compiler-Design-Lab/blob/main/compiler-design-experiments.txt)**
